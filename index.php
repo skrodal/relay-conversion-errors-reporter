@@ -3,7 +3,9 @@
 /**
  * Quick and dirty monitor for email-alerts when there are failed jobs in the Relay transcoding queue.
  * 
- * This script should be auto-run (cron) once a day (pref. morning).
+ * This script should be auto-run (cron) once a day.
+ *
+ * Simon Skrødal, Sep. 2016
  */
 ini_set('mssql.charset', 'UTF-8');
 //
