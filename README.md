@@ -12,14 +12,15 @@ crashed job that has not been manually dealt with, will be retried 1000s of time
 With the reporter running, a Relay administrator can get daily updates of the queues 'health' and act accordingly.
 
 ## Configure
+```json
 
 {
 	"host"					:	"",
-	"db"					:	"RelayXXX",
+	"db"					  :	"",
 	"user"					:	"",
-	"pass"					:	"",
+	"pass"					:	""
 }
-
+```
 
 ### CRON-job
 
